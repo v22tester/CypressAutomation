@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "searchfor": "calculator",
+    "searchforxpath":"#APjFqb",
+    "googlesearchxpth":".FPdoLc > center > .gNO89b",
+    "submitxpath":"input.gNO89b[type=\"submit\"]"
+  },
+  "output": {
+    "addresult": "3",
+    "subtractionresult":"1",
+    "multiplicationresult":"40",
+    "divisionresult":"1.5"
+  },
+  "urls": {
+    "googleurl": "https://www.google.com/"
+  },
+  "numbers":{
+    "one" : ".ElumCf > tbody > :nth-child(4) > :nth-child(1) > .PaQdxb > .XRsWPe",
+    "two" : ".ElumCf > tbody > :nth-child(4) > :nth-child(2) > .PaQdxb > .XRsWPe",
+    "three":".ElumCf > tbody > :nth-child(4) > :nth-child(3) > .PaQdxb > .XRsWPe",
+    "four":".ElumCf > tbody > :nth-child(3) > :nth-child(1) > .PaQdxb > .XRsWPe",
+    "five":".ElumCf > tbody > :nth-child(3) > :nth-child(2) > .PaQdxb > .XRsWPe",
+    "six":".ElumCf > tbody > :nth-child(3) > :nth-child(3) > .PaQdxb > .XRsWPe",
+    "seven":".ElumCf > tbody > :nth-child(2) > :nth-child(1) > .PaQdxb > .XRsWPe",
+    "eight":".ElumCf > tbody > :nth-child(2) > :nth-child(2) > .PaQdxb > .XRsWPe",
+    "nine":".ElumCf > tbody > :nth-child(2) > :nth-child(3) > .PaQdxb > .XRsWPe",
+    "zero":".ElumCf > tbody > :nth-child(5) > :nth-child(1) > .PaQdxb > .XRsWPe"
+  },
+  "calculation":{
+    "equals" : ".ElumCf > tbody > :nth-child(5) > :nth-child(3) > .PaQdxb > .XRsWPe",
+    "add" : ":nth-child(5) > :nth-child(4) > .PaQdxb > .XRsWPe",
+    "subtraction" : ":nth-child(4) > :nth-child(4) > .PaQdxb > .XRsWPe",
+    "multiplication" : ":nth-child(3) > :nth-child(4) > .PaQdxb > .XRsWPe",
+    "division" : ":nth-child(2) > :nth-child(4) > .PaQdxb > .XRsWPe"
+
+  }
+}
